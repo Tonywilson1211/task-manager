@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     // sidenav initialisation
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
+    let sidenav = document.querySelectorAll('.sidenav');
+    M.Sidenav.init(sidenav);
 });
 
 // Or with jQuery
@@ -9,3 +9,4 @@ document.addEventListener('DOMContentLoaded', function () {
 // $(document).ready(function () {
 //     $('.sidenav').sidenav();
 // });
+
