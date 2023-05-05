@@ -4,6 +4,12 @@ document.addEventListener('DOMContentLoaded', function () {
     M.Sidenav.init(sidenav);
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    // modal initialisation
+    let modal = document.querySelectorAll('.modal');
+    M.Modal.init(modal);
+});
+
 // Or with jQuery
 
 // $(document).ready(function () {
