@@ -23,6 +23,11 @@ document.addEventListener('DOMContentLoaded', function () {
     M.FormSelect.init(selects);
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    let collapsibles = document.querySelectorAll('.collapsible');
+    M.Collapsible.init(collapsibles);
+});
+
 // Or with jQuery
 
 // $(document).ready(function () {
