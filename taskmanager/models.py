@@ -28,3 +28,4 @@ class Task(db.Model):
         return "#{0} - Task: {1} | Urgent: {2}".format(
             self.id, self.task_name, self.is_urgent
         )
+3.10.6
